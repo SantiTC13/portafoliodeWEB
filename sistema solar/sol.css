@@ -1,0 +1,7 @@
+sol {
+    display: flex;
+    align-items: center;
+}
+.sol img{
+    height: 250px;
+}
