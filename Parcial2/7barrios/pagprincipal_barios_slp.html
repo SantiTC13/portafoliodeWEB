@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery/*pseudoclase*/ {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover/*el hover es el evento que lo detona, y este a su vez cambia el contorno de color*/ {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+h1,p{
+  text-align: center;
+}
+*{
+  box-sizing: border-box;
+}
+.responsive{
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+@media only screen and (max-width: 700px){
+  .responsive{
+    width: 24.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px){
+  .responsive{
+    width: 100%;
+  }
+}
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+  <h1>Los Siete Barrios de San Luis Potosí</h1>
+  <div class="clearfix"></div>
+  <p>Anteriormente San Luis Potosí se encontraba organizado en Siete Barrios, los cuales existieron prácticamente desde el origen de la Ciudad rodeando el cuadro principal donde se asentaron los españoles.
+  <br>Estos fueron habitados por los primeros pobladores indígenas; formados por su propio grupo étnico adquiriendo con esto una identidad propia que los iba caracterizando de los demás. 
+  <br>Al transcurrir de los años, con el desarrollo y crecimiento de la Ciudad los barrios se fueron integrando al conjunto urbano, que en un principio s​e encontraban en las afueras de la Ciudad. 
+  <br>Los siete barrios de San Luis Potosí son: 
+  <br>Tlaxcala, San Miguelito, El Montecillo, San Juan de Guadalupe, San Sebastián, Santiago y Tequisquiapan</p>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="tlaxcala.html">
+        <img src="Postal_Tlaxcala.jpg" alt="Barrio de tlaxcala" width="600" height="400">
+      </a>
+      <div class="desc">Barrio de tlaxcala</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="sanmiguelito.html">
+        <img src="Postal_San_Miguelito.jpg" alt="Barrio de San Miguelito" width="600" height="400">
+      </a>
+      <div class="desc">Barrio de San Miguelito</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="montesillo.html">
+        <img src="Postal_Montecillo.jpg" alt="Barrio de Montesillo" width="600" height="400">
+      </a>
+      <div class="desc">Barrio de Montesillo</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="sanjuan.html">
+        <img src="Postal_San_Juan_de_Guadalupe.jpg" alt="Barrio de San Juan de Guadalupe" width="600" height="400">
+      </a>
+      <div class="desc">Barrio de San Juan de Guadalupe</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="sebastian.html">
+        <img src="Postal_San_Sebastian.jpg" alt="Barrio de San Sebastian" width="600" height="400">
+      </a>
+      <div class="desc">Barrio de San Sebastian</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="santiago.html">
+        <img src="Postal_Santiago.jpg" alt="Barrio de Santiago" width="600" height="400">
+      </a>
+      <div class="desc">Barrio de Santiago</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="tequis.html">
+        <img src="Postal_Tequis.jpg" alt="​Barrio de Tequisquiap​​an" width="600" height="400">
+      </a>
+      <div class="desc">​Barrio de Tequisquiap​​an</div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
